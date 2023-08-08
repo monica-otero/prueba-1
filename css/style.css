@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400&family=Roboto:wght@300&display=swap');
+
+:root{
+	--bg-body: #F8F9FB;
+	--color-subtitulo: #333;
+	--color-titulo:  #3c3838;
+	--color-azul: #00ACB2;
+	--fondo-azul: #25282F;
+	--fondo-class: #F8F9FB;
+	--color-footer: #333
+}
+
+body{
+	font-size: 18px;
+	background-color: var(--bg-body);
+	color: #333;
+}
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-titulos);
+	font-family: 'Roboto', sans-serif;
+}
+
+p{
+	font-family: 'Hind', sans-serif;
+}
+
+header{
+	background-color: var(--bg-body);
+	/*box-shadow: 0px 0px 5px 3px #eee;*/
+}
+
+#hero-title{
+	background-color: var(--fondo-azul);
+	padding: 8% 0;
+	color: #fff;
+		
+}
+
+.btn-light{
+	padding: 2% 2%;
+	margin: 1% 1%;
+	color: var(--color-azul);
+}
+.btn-primary{
+	padding: 2% 2%;
+	margin: 1% 1%;
+	background-color:var(--color-azul);
+}
+
+#our-classes h2{
+	margin-bottom:2%;
+	color:#000000;
+}
+
+#our-classes{
+	padding:8% 0%;
+	width:60%;
+	text-align: center;
+	margin:auto;
+	color:var(--color-azul);
+}
+
+#cta{
+	background-color: var(--fondo-azul);
+	padding: 8% 0;
+	color: #fff;
+	font-size:20px;
+}
+
+#cta .btn-danger{
+	padding: 6% 8%;
+
+}
+
+#fitness{
+	background-image: url("../img/health-fitness.jpg");
+	background-size: cover;
+}
+
+#fitness h5{
+	color: var(--color-azul);
+}
+
+#fitness .fitness{
+	padding:8% 0%;
+	background-color:rgba(0);
+	
+}
+
+#fitness .btn-primary{
+	background-color: transparent;
+	border-color: var(--color-azul);
+	color: var(--color-azul);
+	padding: 3% 5%;	
+}
+
+#trainers{
+	background-color: var(--fondo-azul);
+	padding: 5% 0%;
+	color:#fff;
+	margin:2% 0%;
+	font-size:14px;
+	
+}
+
+#suscribe{
+	margin:2% 0%;
+	padding: 2% 
+}
+
+#subscribe .btn-primary{
+	background-color: var(--color-azul);
+	border-color: var(--color-azul);
+	color: #fff;
+	padding: 3% 5%;	
+}
+
+footer{
+	background-color: var(--bg-body);
+	color: #333;
+	padding: 30px 0;
+	text-align: center;
+}
+
+#footer i{
+	font-size: 30px;
+	margin: 0px 1%;
+	color: var(--color-azul);
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
